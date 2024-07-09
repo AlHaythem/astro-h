@@ -7,19 +7,30 @@ export const headerData = {
       href: getPermalink('/'),
     },
     {
-      text: '书籍推荐',
-      href: getPermalink('/landing/sjtj'),
+      text: '介绍',
+      href: getPermalink('/landing/scjs'),
     },
     {
-      text: '电影推荐',
-      href: getPermalink('/landing/dytj'),
+      text: '类别',
+      href: getPermalink('/landing/sclb'),
     },
     {
-      text: '关于我们',
-      href: getPermalink('/about'),
+      text: '说唱推荐',
+      links: [
+        {
+          text: '中文说唱歌曲推荐',
+          href: getPermalink('/landing/gqtj'),
+        },
+        {
+          text: '中文说唱综艺推荐',
+          href: getPermalink('/landing/zytj'),
+        },
+      ],
     },
   ],
 };
+
+
 
 export const footerData = {
   links: [
